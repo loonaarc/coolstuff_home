@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #7bc6cc, #be93c5);
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 50px 0 20px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+main {
+  flex: 1;
+}
+
+.tools {
+  list-style: none;
+  padding: 0;
+}
+
+.tools li {
+  margin: 15px 0;
+}
+
+.tools a {
+  color: #005b70;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tools a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin: 20px 0;
+  font-size: 0.9em;
+  color: #555;
+}
